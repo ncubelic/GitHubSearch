@@ -17,6 +17,9 @@
 		93CFD94726EA90AD005FEAC3 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFD94626EA90AD005FEAC3 /* RepositoryTableViewCell.swift */; };
 		93CFD94926EA91EC005FEAC3 /* RepositoryListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFD94826EA91EC005FEAC3 /* RepositoryListHeader.swift */; };
 		93CFD94B26EA942F005FEAC3 /* RepositoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFD94A26EA942F005FEAC3 /* RepositoryDetailsViewController.swift */; };
+		93CFD94F26EA9F60005FEAC3 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFD94E26EA9F60005FEAC3 /* SearchModel.swift */; };
+		93CFD95126EA9F7D005FEAC3 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFD95026EA9F7D005FEAC3 /* Repository.swift */; };
+		93CFD95326EA9F8C005FEAC3 /* Owner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CFD95226EA9F8C005FEAC3 /* Owner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		93CFD94626EA90AD005FEAC3 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
 		93CFD94826EA91EC005FEAC3 /* RepositoryListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListHeader.swift; sourceTree = "<group>"; };
 		93CFD94A26EA942F005FEAC3 /* RepositoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewController.swift; sourceTree = "<group>"; };
+		93CFD94E26EA9F60005FEAC3 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		93CFD95026EA9F7D005FEAC3 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		93CFD95226EA9F8C005FEAC3 /* Owner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,16 +73,43 @@
 				93CFD92C26EA8365005FEAC3 /* AppDelegate.swift */,
 				93CFD92E26EA8365005FEAC3 /* SceneDelegate.swift */,
 				93CFD94026EA838E005FEAC3 /* AppController.swift */,
-				93CFD94226EA8495005FEAC3 /* RepositoryListViewController.swift */,
-				93CFD94626EA90AD005FEAC3 /* RepositoryTableViewCell.swift */,
-				93CFD94826EA91EC005FEAC3 /* RepositoryListHeader.swift */,
-				93CFD94A26EA942F005FEAC3 /* RepositoryDetailsViewController.swift */,
 				93CFD94426EA8840005FEAC3 /* NetworkService.swift */,
+				93CFD95426EA9FAE005FEAC3 /* ViewControllers */,
+				93CFD94D26EA9F3D005FEAC3 /* Models */,
+				93CFD94C26EA9F01005FEAC3 /* Views */,
 				93CFD93526EA8366005FEAC3 /* Assets.xcassets */,
 				93CFD93726EA8366005FEAC3 /* LaunchScreen.storyboard */,
 				93CFD93A26EA8366005FEAC3 /* Info.plist */,
 			);
 			path = GithubRepo;
+			sourceTree = "<group>";
+		};
+		93CFD94C26EA9F01005FEAC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93CFD94626EA90AD005FEAC3 /* RepositoryTableViewCell.swift */,
+				93CFD94826EA91EC005FEAC3 /* RepositoryListHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93CFD94D26EA9F3D005FEAC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93CFD94E26EA9F60005FEAC3 /* SearchModel.swift */,
+				93CFD95026EA9F7D005FEAC3 /* Repository.swift */,
+				93CFD95226EA9F8C005FEAC3 /* Owner.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93CFD95426EA9FAE005FEAC3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93CFD94226EA8495005FEAC3 /* RepositoryListViewController.swift */,
+				93CFD94A26EA942F005FEAC3 /* RepositoryDetailsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +184,12 @@
 				93CFD94526EA8840005FEAC3 /* NetworkService.swift in Sources */,
 				93CFD92D26EA8365005FEAC3 /* AppDelegate.swift in Sources */,
 				93CFD92F26EA8365005FEAC3 /* SceneDelegate.swift in Sources */,
+				93CFD94F26EA9F60005FEAC3 /* SearchModel.swift in Sources */,
 				93CFD94926EA91EC005FEAC3 /* RepositoryListHeader.swift in Sources */,
 				93CFD94726EA90AD005FEAC3 /* RepositoryTableViewCell.swift in Sources */,
 				93CFD94B26EA942F005FEAC3 /* RepositoryDetailsViewController.swift in Sources */,
+				93CFD95126EA9F7D005FEAC3 /* Repository.swift in Sources */,
+				93CFD95326EA9F8C005FEAC3 /* Owner.swift in Sources */,
 				93CFD94126EA838F005FEAC3 /* AppController.swift in Sources */,
 				93CFD94326EA8495005FEAC3 /* RepositoryListViewController.swift in Sources */,
 			);

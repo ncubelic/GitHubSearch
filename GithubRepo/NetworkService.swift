@@ -44,20 +44,3 @@ class NetworkService {
 enum Endpoint {
     static let searchEndpoint = "https://api.github.com/search/repositories"
 }
-
-struct SearchModel: Codable {
-    let totalCount: Int
-    let items: [Repository]
-}
-
-struct Repository: Codable {
-    let id: UInt64
-    let name: String
-    let updatedAt: Date
-    let owner: Owner
-    let description: String?
-}
-
-struct Owner: Codable {
-    let login: String
-}
